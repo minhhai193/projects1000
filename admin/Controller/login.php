@@ -79,10 +79,10 @@
 		}
 
 		input[type="username"]{
-			background:rgba(0,0,0,0.55) url(../images/user.png) no-repeat 10px 10px;
+			background:url(../images/user.png) no-repeat 10px 10px;
 		}
 		input[type="password"]{
-			background:rgba(0,0,0,0.55) url(../images/lock.png) no-repeat 10px 10px;
+			background:url(../images/lock.png) no-repeat 10px 10px;
 		}
 
 		input[type="submit"]{

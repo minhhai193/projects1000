@@ -48,6 +48,7 @@
         .dropdown {
           position: relative;
           display: inline-block;
+          padding: 5px 0;
         }
 
         .dropdown-content {
@@ -58,6 +59,7 @@
           width: 160px;
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           z-index: 2;
+          top: 32px;
         }
 
         .dropdown-content a {
@@ -133,7 +135,7 @@
             </div>
         </div>
         <div class="col-10 px-0 menu_right">
-            <div class="menu_head py-2 px-4">
+            <div class="menu_head px-4">
                 <!-- <ul class="ul">
                     
                     
