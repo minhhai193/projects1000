@@ -57,7 +57,7 @@
             <div class="box sidemenu mt-2">
                 <div class="block" id="section-menu">
                     <ul class="section menu">
-                        <li><a href="./" class="ic_Home">Trang chủ</a></li>
+                        <li><a href="./" class="menuitem ic_Home">Trang chủ</a></li>
                         <li><a class="menuitem icon_User">Quản lý tài khoản</a>
                             <ul class="submenu">
                                 <li><a href="catadd.php">Tài khoản nhân viên</a> </li>
