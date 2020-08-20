@@ -1,6 +1,6 @@
 <?php
     // gọi file adminlogin
-    include '../Model/adminlogin.php';
+    include '../../Model/adminlogin.php';
 ?>
 <?php
     // gọi class adminlogin
@@ -20,7 +20,7 @@
 	<title>Login</title>
 <style>
 img{max-width:100%;}
-body{font-family:'Montserrat',sans-serif;margin:0;background:url(images/bg.jpg) no-repeat;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-ms-background-size:cover;background-attachment:fixed;background-position:center;}
+body{font-family:'Montserrat',sans-serif;margin:0;background:url(../images/bg.jpg) no-repeat;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-ms-background-size:cover;background-attachment:fixed;background-position:center;}
 ul{padding:0;margin:0;}
 h1,
 h2,
@@ -40,8 +40,8 @@ h1.logo-w3{font-size:3em;text-transform:uppercase;letter-spacing:4px;color:#ffff
 .w3layouts-main{padding:42px 35px 25px;}
 input[type="username"],
 input[type="password"]{width:75%;padding:16px 50px 16px 50px;outline:none;font-size:15px;font-weight:300;color:#fff;margin:14px 0px;font-family:'Montserrat',sans-serif;border:1px solid #fff;background:transparent;letter-spacing:1px;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;}
-input[type="username"]{background:rgba(0,0,0,0.55) url(images/user.png) no-repeat 10px 10px;}
-input[type="password"]{background:rgba(0,0,0,0.55) url(images/lock.png) no-repeat 10px 10px;}
+input[type="username"]{background:rgba(0,0,0,0.55) url(../images/user.png) no-repeat 10px 10px;}
+input[type="password"]{background:rgba(0,0,0,0.55) url(../images/lock.png) no-repeat 10px 10px;}
 .w3layouts-main h6{font-size:16px;color:#fff;letter-spacing:1px;margin-top:8px;text-align:center;text-decoration:none;}
 .w3layouts-main h3{font-size:0.9em;color:#fff;margin-top:3em;text-align:center;}
 input[type="submit"]{padding:14px 30px;font-size:1em;border-radius:30px;-webkit-border-radius:30px;-moz-border-radius:30px;-ms-border-radius:30px;-o-border-radius:30px;text-transform:uppercase;letter-spacing:1px;background:#2dde98;color:#ffffff;border:none;outline:none;cursor:pointer;font-family:'Montserrat',sans-serif;margin:24px auto;}

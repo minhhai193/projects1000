@@ -9,15 +9,15 @@
 	class adminlogin
 	{
 		private $db;
-		private $fm;
+		private $func;
 		public function __construct()
 		{
 			$this->db = new Database();
 			$this->func = new Functions();
 		}
 		public function longin_admin($adminUser,$adminPass){
-			$adminUser = $this->fm->validation($adminUser); //gọi ham validation từ file Format để ktra
-			$adminPass = $this->fm->validation($adminPass);
+			$adminUser = $this->func->validation($adminUser); //gọi ham validation từ file Format để ktra
+			$adminPass = $this->func->validation($adminPass);
 			$adminUser = mysqli_real_escape_string($this->db->link, $adminUser);
 			$adminPass = mysqli_real_escape_string($this->db->link, $adminPass); //mysqli gọi 2 biến. (adminUser and link) biến link -> gọi conect db từ file db
 			if(empty($adminUser) || empty($adminPass)){
