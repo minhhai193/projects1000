@@ -50,7 +50,7 @@
                         <p>TECHNOLOGIES GAMING</p> 
                     </div>
                 </div>
-                <img src="images/sidebarSep.png" alt="">
+                <img src="../images/sidebarSep.png" alt="">
             </div>
 
 
@@ -98,11 +98,21 @@
         <div class="col-10 px-0 menu_right">
             <div class="menu_head py-2 px-4">
                 <ul class="ul">
+                    
+                    
+                    <!-- <li>
+                        <a href="http://localhost/shopdungcu/index.php" target="_blank">
+                            <i class="far fa-hand-point-right mr-2"></i>Vào website
+                        </a>
+                    </li> -->
                     <li><a href="changepassword.php"><i class="fas fa-unlock-alt mr-2"></i>Thay đổi mật khẩu</a></li>
-                    <li><a href="inbox.php"><i class="fas fa-comments-dollar mr-2"></i>Đơn hàng</a></li>
-                    <li><a href="http://localhost/shopdungcu/index.php" target="_blank"><i class="far fa-hand-point-right mr-2"></i></i>Vào website</a></li>
                     <li><a href="?action=logout"><i class="fas fa-arrow-left mr-2"></i>Đăng xuất</a></li>
-                    <li><span><img src="images/icon/userPic.png" alt=""><p class="pl-2">Xin chào, <?php echo Session::get('adminName')?> !</p></span></li>
+                    <li>
+                        <span>
+                            <p class="pr-2"><?php echo Session::get('adminName')?> </p>
+                            <img src="../images/icon/icon_users.png" alt="">
+                        </span>
+                    </li>
                 </ul>
             </div>
 
