@@ -1,5 +1,5 @@
 <?php 
-    include '../Library/session.php';
+    include '../../Library/session.php';
     Session::checkSession();
  ?>
 <?php
@@ -13,23 +13,23 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Admin</title>
     <link rel="SHORTCUT ICON" href="images/Logo_Shop.png">
-    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
     <!-- BEGIN: load jquery -->
-    <script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/jquery-ui/jquery.ui.core.min.js"></script>
-    <script src="js/jquery-ui/jquery.ui.widget.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.ui.accordion.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.effects.core.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.effects.slide.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.ui.mouse.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.ui.sortable.min.js" type="text/javascript"></script>
-    <script src="js/table/jquery.dataTables.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+    <script src="../js/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/jquery-ui/jquery.ui.core.min.js"></script>
+    <script src="../js/jquery-ui/jquery.ui.widget.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.ui.accordion.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.effects.core.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.effects.slide.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.ui.mouse.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.ui.sortable.min.js" type="text/javascript"></script>
+    <script src="../js/table/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script>
     <!-- END: load jquery -->
     <script src="https://kit.fontawesome.com/0b176a5748.js"></script>
-    <script src="js/setup.js" type="text/javascript"></script>
+    <script src="../js/setup.js" type="text/javascript"></script>
      <script type="text/javascript">
         $(document).ready(function () {
             setupLeftMenu();
