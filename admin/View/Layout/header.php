@@ -12,17 +12,14 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Admin</title>
-<<<<<<< HEAD:admin/inc/header.php
-    <link rel="SHORTCUT ICON" href="images/Logo_Shop.png">
-    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
-=======
+    <link rel="SHORTCUT ICON" href="../images/Logo_Shop.png">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
     <link rel="SHORTCUT ICON" href="../images/logo2.png">
     <link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
->>>>>>> f5107489005c71fa95b9341775a9c8a09ea4886c:admin/View/Layout/header.php
     <!-- BEGIN: load jquery -->
     <script src="../js/jquery-1.6.4.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../js/jquery-ui/jquery.ui.core.min.js"></script>
@@ -50,11 +47,7 @@
             <div class="logo">
                 <div class="items">
                     <div class="img">
-<<<<<<< HEAD:admin/inc/header.php
-                        <img src="images/Logo_Shop.png" alt="Logo" />
-=======
-                        <img src="../images/logo2.png" alt="Logo" />
->>>>>>> f5107489005c71fa95b9341775a9c8a09ea4886c:admin/View/Layout/header.php
+                        <img src="../images/Logo_Shop.png" alt="Logo" />
                     </div>
                     <div class="details pl-1 py-1">
                         <h3>GearAway</h3>
@@ -63,8 +56,6 @@
                 </div>
                 <img src="images/sidebarSep.png" alt="">
             </div>
-
-
             <div class="box sidemenu mt-2">
                 <div class="block" id="section-menu">
                     <ul class="section menu">
@@ -75,27 +66,23 @@
                                 <li><a href="catlist.php">Tài khoản khách hàng</a> </li>
                             </ul>
                         </li>   
-
                         <li><a class="menuitem ic_Company">Đối tác chiến lược</a>
                             <!-- <ul class="submenu">
                                 <li><a href="brandlist.php">Danh sách thương hiệu</a> </li>
                             </ul> -->
                         </li>
-
                         <li><a class="menuitem ic_Product">Sản phẩm</a>
                             <ul class="submenu">
                                 <li><a href="productadd.php">Danh mục sản phẩm</a> </li>
                                 <li><a href="productlist.php">Sản phẩm</a> </li>
                             </ul>
                         </li>
-
                         <li><a class="menuitem ic_Bill">Quản lí hóa đơn</a>
                             <ul class="submenu">
                                 <li><a href="slideradd.php">Bán hàng</a> </li>
                                 <li><a href="sliderlist.php">Bảo hành sản phẩm</a> </li>
                             </ul>
                         </li>
-                        
                         <li><a class="menuitem ic_pd">Quản lí bài viết</a>
                             <ul class="submenu">
                                 <li><a href="postadd.php">Thêm bài viết</a> </li>
@@ -117,10 +104,6 @@
                 </ul>
 <<<<<<< HEAD:admin/inc/header.php
             </div>
-
-                
-            
-    
 =======
             </div>
 >>>>>>> f5107489005c71fa95b9341775a9c8a09ea4886c:admin/View/Layout/header.php
