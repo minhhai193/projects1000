@@ -30,9 +30,9 @@
 					$value = $result->fetch_assoc();
 					Session::set('adminlogin', true); // set adminlogin đã tồn tại
 					// gọi function Checklogin để kiểm tra true.
-					Session::set('adminId', $value['adminId']);
-					Session::set('adminUser', $value['adminUser']);
-					Session::set('adminName', $value['adminName']);
+					Session::set('adminId', $value['Id_User_Staff']);
+					Session::set('adminUser', $value['Username_Staff']);
+					Session::set('adminName', $value['FullName']);
 					header("Location:index.php");
 				}else {
 					$alert = "Username hoặc mật khẩu không đúng!";
