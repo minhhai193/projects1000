@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th8 20, 2020 lúc 09:03 AM
+-- Thời gian đã tạo: Th8 20, 2020 lúc 09:14 AM
 -- Phiên bản máy phục vụ: 10.4.13-MariaDB
 -- Phiên bản PHP: 7.4.8
 
@@ -31,6 +31,7 @@ CREATE TABLE `users_staff` (
   `Id_User_Staff` int(11) NOT NULL,
   `Username_Staff` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `Password_Staff` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `FullName` text COLLATE utf8_unicode_ci NOT NULL,
   `Phone` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `CMND` varchar(12) COLLATE utf8_unicode_ci NOT NULL,
   `Address` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
@@ -46,9 +47,9 @@ CREATE TABLE `users_staff` (
 -- Đang đổ dữ liệu cho bảng `users_staff`
 --
 
-INSERT INTO `users_staff` (`Id_User_Staff`, `Username_Staff`, `Password_Staff`, `Phone`, `CMND`, `Address`, `Id_Role`, `Create_Date`, `Create_By`, `Update_Date`, `Update_By`, `Is_Delete`) VALUES
-(1, 'hieu', '123', '0902622737', '079099005083', '429 lô B4 chung cư phường 3 quận 4, TP.HCM', '', '2020-08-20 11:26:11', '', '0000-00-00 00:00:00', '', 0),
-(2, 'hai', '123', '0123456789', '123456789123', 'quận 3', '', '2020-08-20 11:41:38', 'hieu', '0000-00-00 00:00:00', '', 0);
+INSERT INTO `users_staff` (`Id_User_Staff`, `Username_Staff`, `Password_Staff`, `FullName`, `Phone`, `CMND`, `Address`, `Id_Role`, `Create_Date`, `Create_By`, `Update_Date`, `Update_By`, `Is_Delete`) VALUES
+(1, 'hieu', '123', 'Đinh Trung Hiếu', '0902622737', '079099005083', '429 lô B4 chung cư phường 3 quận 4, TP.HCM', '', '2020-08-20 11:26:11', '', '0000-00-00 00:00:00', '', 0),
+(2, 'hai', '123', 'Nguyễn Minh Hải', '0123456789', '123456789123', 'quận 3', '', '2020-08-20 11:41:38', 'hieu', '0000-00-00 00:00:00', '', 0);
 
 --
 -- Chỉ mục cho các bảng đã đổ
