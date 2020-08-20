@@ -7,7 +7,7 @@ body{background:#fff none repeat scroll 0 0;color:#444;font-size:14px;width: 100
 label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color: #4a4a4a;}
 /* section menus
 ----------------------------------------------- */
-.menu_left{background-color: #2F3840;padding-right: 0!important;border-right: 1px solid #39454f;}
+.menu_left{background-color: #43505c;padding-right: 0!important;border-right: 1px solid #39454f;}
 .menu_left ul.section{border-top:0;margin-bottom:0;}
 .menu_left ul.section li .ic_Home:before{content: url('../images/icon/icon_Home.png');margin: 0.5em 1em 0 0;}
 .menu_left ul.section li .icon_User:before{content: url('../images/icon/icon_users.png');margin: 0.5em 1em 0 0;}
@@ -42,7 +42,7 @@ label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color:
 .menu_left ul.section li.current > a.active,
 .menu_left ul.section li.current > a.active:hover{color:#fff;background:#252E35;cursor:default;}
 
-.menu_head{background-color: #2F3840;}
+.menu_head{background-color: #43505c;}
 .menu_head .ul{margin-bottom: 0;}
 .menu_head .ul li{display: inline-block;}
 .menu_head .ul li:first-child a{border-left:1px solid #39454f;}
@@ -131,7 +131,7 @@ div.menu .block{padding-top:0;}
 
 /* sidebar menu
 ----------------------------------------------- */
-.box.sidemenu{height: auto!important;background-color: #2F3840;padding:0px;margin:0px;cursor:pointer;min-height: 550px;max-height: 800px;}
+.box.sidemenu{height: auto!important;background-color: #43505c;padding:0px;margin:0px;cursor:pointer;min-height: 550px;max-height: 800px;}
 .box.sidemenu .block{padding-top:0px;margin-top:0px;}
 
 /* paragraphs, quotes and lists

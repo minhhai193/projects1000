@@ -35,7 +35,7 @@
 					Session::set('adminName', $value['FullName']);
 					header("Location:index.php");
 				}else {
-					$alert = "Username hoặc mật khẩu không đúng!";
+					$alert = "Username hoặc mật khẩu không đúng";
 					return $alert;
 				}
 			}
