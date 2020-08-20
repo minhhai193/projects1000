@@ -46,9 +46,10 @@
         }
 
         .dropdown {
-          position: relative;
+          position: absolute;
           display: inline-block;
           padding: 5px 0;
+          right: 40px;
         }
 
         .dropdown-content {
@@ -60,6 +61,7 @@
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           z-index: 2;
           top: 32px;
+          right: 0;
         }
 
         .dropdown-content a {

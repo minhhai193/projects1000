@@ -42,7 +42,7 @@ label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color:
 .menu_left ul.section li.current > a.active,
 .menu_left ul.section li.current > a.active:hover{color:#fff;background:#252E35;cursor:default;}
 
-.menu_head{background-color: #43505c;}
+.menu_head{background-color: #43505c;position: relative;height: 35px;}
 .menu_head .ul{margin-bottom: 0;}
 .menu_head .ul li{display: inline-block;}
 .menu_head .ul li:first-child a{border-left:1px solid #39454f;}
