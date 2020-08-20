@@ -1,3 +1,5 @@
+	</div>
+</div>
 </body>
 <script>
 	CKEDITOR.replace( 'editor1' );

@@ -9,7 +9,7 @@
 	class adminlogin
 	{
 		private $db;
-		private $fm;
+		private $func;
 		public function __construct()
 		{
 			$this->db = new Database();

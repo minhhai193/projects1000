@@ -1,5 +1,5 @@
 <?php 
-    include '../Library/session.php';
+    include '../../Library/session.php';
     Session::checkSession();
  ?>
 <?php
@@ -12,24 +12,31 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Admin</title>
+<<<<<<< HEAD:admin/inc/header.php
     <link rel="SHORTCUT ICON" href="images/Logo_Shop.png">
     <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+=======
+    <link rel="SHORTCUT ICON" href="../images/logo2.png">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
+>>>>>>> f5107489005c71fa95b9341775a9c8a09ea4886c:admin/View/Layout/header.php
     <!-- BEGIN: load jquery -->
-    <script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/jquery-ui/jquery.ui.core.min.js"></script>
-    <script src="js/jquery-ui/jquery.ui.widget.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.ui.accordion.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.effects.core.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.effects.slide.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.ui.mouse.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui/jquery.ui.sortable.min.js" type="text/javascript"></script>
-    <script src="js/table/jquery.dataTables.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+    <script src="../js/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/jquery-ui/jquery.ui.core.min.js"></script>
+    <script src="../js/jquery-ui/jquery.ui.widget.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.ui.accordion.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.effects.core.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.effects.slide.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.ui.mouse.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui/jquery.ui.sortable.min.js" type="text/javascript"></script>
+    <script src="../js/table/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script>
     <!-- END: load jquery -->
     <script src="https://kit.fontawesome.com/0b176a5748.js"></script>
-    <script src="js/setup.js" type="text/javascript"></script>
+    <script src="../js/setup.js" type="text/javascript"></script>
      <script type="text/javascript">
         $(document).ready(function () {
             setupLeftMenu();
@@ -43,7 +50,11 @@
             <div class="logo">
                 <div class="items">
                     <div class="img">
+<<<<<<< HEAD:admin/inc/header.php
                         <img src="images/Logo_Shop.png" alt="Logo" />
+=======
+                        <img src="../images/logo2.png" alt="Logo" />
+>>>>>>> f5107489005c71fa95b9341775a9c8a09ea4886c:admin/View/Layout/header.php
                     </div>
                     <div class="details pl-1 py-1">
                         <h3>GearAway</h3>
@@ -104,8 +115,12 @@
                     <li><a href="?action=logout"><i class="fas fa-arrow-left mr-2"></i>Đăng xuất</a></li>
                     <li><span><img src="images/icon/userPic.png" alt=""><p class="pl-2">Xin chào, <?php echo Session::get('adminName')?> !</p></span></li>
                 </ul>
+<<<<<<< HEAD:admin/inc/header.php
             </div>
 
                 
             
     
+=======
+            </div>
+>>>>>>> f5107489005c71fa95b9341775a9c8a09ea4886c:admin/View/Layout/header.php
