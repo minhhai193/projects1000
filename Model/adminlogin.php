@@ -16,15 +16,15 @@
 			$this->func = new Functions();
 		}
 		public function longin_admin($adminUser,$adminPass){
-			$adminUser = $this->fm->validation($adminUser); //gọi ham validation từ file Format để ktra
-			$adminPass = $this->fm->validation($adminPass);
+			$adminUser = $this->func->validation($adminUser); //gọi ham validation từ file Format để ktra
+			$adminPass = $this->func->validation($adminPass);
 			$adminUser = mysqli_real_escape_string($this->db->link, $adminUser);
 			$adminPass = mysqli_real_escape_string($this->db->link, $adminPass); //mysqli gọi 2 biến. (adminUser and link) biến link -> gọi conect db từ file db
 			if(empty($adminUser) || empty($adminPass)){
 				$alert = "Nhập đầy đủ Username và Password.";
 				return $alert;
 			}else{
-				$query = "SELECT * FROM tbl_admin WHERE adminUser = '$adminUser' AND adminPass = '$adminPass' LIMIT 1 ";
+				$query = "SELECT * FROM users_staff WHERE Username_Staff = '$adminUser' AND Password_Staff = '$adminPass' AND Is_Delete = '0' ";
 				$result = $this->db->select($query);
 				if($result != false){
 					$value = $result->fetch_assoc();

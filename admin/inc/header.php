@@ -12,7 +12,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Admin</title>
-    <link rel="SHORTCUT ICON" href="images/logo2.png">
+    <link rel="SHORTCUT ICON" href="images/Logo_Shop.png">
     <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
@@ -43,43 +43,48 @@
             <div class="logo">
                 <div class="items">
                     <div class="img">
-                        <img src="images/logo2.png" alt="Logo" />
+                        <img src="images/Logo_Shop.png" alt="Logo" />
                     </div>
                     <div class="details pl-1 py-1">
-                        <h3>Hải Minh</h3>
-                        <p>Design website</p> 
+                        <h3>GearAway</h3>
+                        <p>TECHNOLOGIES GAMING</p> 
                     </div>
                 </div>
                 <img src="images/sidebarSep.png" alt="">
             </div>
+
+
             <div class="box sidemenu mt-2">
                 <div class="block" id="section-menu">
                     <ul class="section menu">
-                        <li><a href="./" class="ic_home">Trang chủ</a></li>
-                        <li><a class="menuitem ic_pd">Danh mục sản phẩm</a>
+                        <li><a href="./" class="ic_Home">Trang chủ</a></li>
+                        <li><a class="menuitem icon_User">Quản lý tài khoản</a>
                             <ul class="submenu">
-                                <li><a href="catadd.php">Thêm danh mục</a> </li>
-                                <li><a href="catlist.php">Danh sách danh mục</a> </li>
+                                <li><a href="catadd.php">Tài khoản nhân viên</a> </li>
+                                <li><a href="catlist.php">Tài khoản khách hàng</a> </li>
                             </ul>
-                        </li>
-                        <li><a class="menuitem ic_pd">Danh mục thương hiệu</a>
-                            <ul class="submenu">
-                                <li><a href="brandadd.php">Thêm thương hiệu</a> </li>
+                        </li>   
+
+                        <li><a class="menuitem ic_Company">Đối tác chiến lược</a>
+                            <!-- <ul class="submenu">
                                 <li><a href="brandlist.php">Danh sách thương hiệu</a> </li>
-                            </ul>
+                            </ul> -->
                         </li>
-                        <li><a class="menuitem ic_product">Sản phẩm</a>
+
+                        <li><a class="menuitem ic_Product">Sản phẩm</a>
                             <ul class="submenu">
-                                <li><a href="productadd.php">Thêm sản phẩm</a> </li>
-                                <li><a href="productlist.php">Danh sách sản phẩm</a> </li>
+                                <li><a href="productadd.php">Danh mục sản phẩm</a> </li>
+                                <li><a href="productlist.php">Sản phẩm</a> </li>
                             </ul>
                         </li>
-                        <li><a class="menuitem ic_slider">Quản lí Slider</a>
+
+                        <li><a class="menuitem ic_Bill">Quản lí hóa đơn</a>
                             <ul class="submenu">
-                                <li><a href="slideradd.php">Thêm slider</a> </li>
-                                <li><a href="sliderlist.php">Tất cả slider</a> </li>
+                                <li><a href="slideradd.php">Bán hàng</a> </li>
+                                <li><a href="sliderlist.php">Bảo hành sản phẩm</a> </li>
                             </ul>
                         </li>
+                        
                         <li><a class="menuitem ic_pd">Quản lí bài viết</a>
                             <ul class="submenu">
                                 <li><a href="postadd.php">Thêm bài viết</a> </li>
@@ -100,6 +105,7 @@
                     <li><span><img src="images/icon/userPic.png" alt=""><p class="pl-2">Xin chào, <?php echo Session::get('adminName')?> !</p></span></li>
                 </ul>
             </div>
+
                 
             
     
