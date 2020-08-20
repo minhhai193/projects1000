@@ -12,7 +12,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Admin</title>
-    <link rel="SHORTCUT ICON" href="images/Logo_Shop.png">
+    <link rel="SHORTCUT ICON" href="../images/Logo_Shop.png">
     <link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
@@ -43,7 +43,7 @@
             <div class="logo">
                 <div class="items">
                     <div class="img">
-                        <img src="images/Logo_Shop.png" alt="Logo" />
+                        <img src="../images/Logo_Shop.png" alt="Logo" />
                     </div>
                     <div class="details pl-1 py-1">
                         <h3>GearAway</h3>
