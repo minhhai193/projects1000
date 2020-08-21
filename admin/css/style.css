@@ -5,10 +5,13 @@ body{background:#fff none repeat scroll 0 0;color:#444;font-size:14px;width: 100
 .title-style h3{border:1px solid #cdcdcd;background: #EFEFEF url(../images/background/titleBg.png) repeat-x;margin: 1.5em 5em;padding: 1em;color: #484848;font-size: 13px;font-weight: 500;white-space: nowrap;}
 .title-style h4{border:1px solid #cdcdcd;background: #EFEFEF url(../images/background/titleBg.png) repeat-x;margin: 0 5em 1em;padding: 1em;color: #484848;font-size: 13px;font-weight: 400;}
 label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color: #4a4a4a;}
+.btn_add {margin: 1em 4.65em 1.15em;}
+.btn_add a{color: white;background: #4a8cbf;padding: .5em 2em;font-size: .8em;font-weight: bold;border: 1px solid #42769e;}
+.btn_add a:hover{color: white;background: #4781ad;text-decoration: none;}
 /* section menus
 ----------------------------------------------- */
 .menu_left{background-color: #43505c;padding-right: 0!important;border-right: 1px solid #39454f;}
-.menu_left ul.section{border-top:0;margin-bottom:0;}
+.menu_left ul.section{border-top:0;margin-bottom:0;position: sticky;left: 0;}
 .menu_left ul.section li .ic_Home:before{content: url('../images/icon/icon_Home.png');margin: 0.5em 1em 0 0;}
 .menu_left ul.section li .icon_User:before{content: url('../images/icon/icon_users.png');margin: 0.5em 1em 0 0;}
 .menu_left ul.section li .ic_Company:before{content: url('../images/icon/icon_ThuongHieu.png');margin: 0.5em 1em 0 0;}
@@ -88,7 +91,7 @@ label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color:
 .menu_head .ul li a:hover{background-color: #293138}
 
 .menu_right{background: #F1F1F1}
-.menu_right .boxInsert{background:#f9f9f9;border:1px solid #cdcdcd;margin: 0 4.5em 2em;padding: 0.5em 1em;position: relative;}
+.menu_right .boxInsert{background:#f9f9f9;border:1px solid #cdcdcd;margin: 0 4.65em 2em;padding: 0.5em 1em;position: relative;}
 .menu_right .boxInsert form tr td{padding: 9px 0 5px;border-bottom:1px solid #E2E2E2;}
 .menu_right .boxInsert form tr #td_end{border-bottom:0}
 

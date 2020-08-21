@@ -5,9 +5,18 @@
 		$act= $_GET['act'];
 
 		switch($act){
-			// case 'show_product';
-			// 	include_once "../View/show_product.php";
-			// 	break;
+			case 'accstaff_list';
+				include_once "../View/accstaff_list.php";
+				break;
+			case 'accstaff_add';
+				include_once "../View/accstaff_add.php";
+				break;
+			case 'productlist';
+				include_once "../View/productlist.php";
+				break;
+			case 'productadd';
+				include_once "../View/productadd.php";
+				break;
 			default:
 				include_once "../View/home.php";
 				break;

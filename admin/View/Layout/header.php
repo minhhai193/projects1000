@@ -51,17 +51,16 @@
                         <p>TECHNOLOGIES GAMING</p> 
                     </div>
                 </div>
-                <img src="../images/sidebarSep.png" alt="">
             </div>
 
-
+\
             <div class="box sidemenu mt-2">
                 <div class="block" id="section-menu">
                     <ul class="section menu">
                         <li><a href="./" class="menuitem ic_Home">Trang chủ</a></li>
                         <li><a class="menuitem icon_User">Quản lý tài khoản</a>
                             <ul class="submenu">
-                                <li><a href="catadd.php">Tài khoản nhân viên</a> </li>
+                                <li><a href="index.php?act=accstaff_list">Tài khoản nhân viên</a> </li>
                                 <li><a href="catlist.php">Tài khoản khách hàng</a> </li>
                             </ul>
                         </li>   
@@ -75,7 +74,7 @@
                         <li><a class="menuitem ic_Product">Sản phẩm</a>
                             <ul class="submenu">
                                 <li><a href="productadd.php">Danh mục sản phẩm</a> </li>
-                                <li><a href="productlist.php">Sản phẩm</a> </li>
+                                <li><a href="index.php?act=productlist">Sản phẩm</a> </li>
                             </ul>
                         </li>
 
