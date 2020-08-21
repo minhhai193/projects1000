@@ -132,7 +132,7 @@ div.menu .block{padding-top:0;}
 
 /* sidebar menu
 ----------------------------------------------- */
-.box.sidemenu{/* height: auto!important; */background-color: #43505c;padding:0px;margin:0px;cursor:pointer;min-height: 550px;/* max-height: 800px; */}
+.box.sidemenu{height: auto!important;background-color: #43505c;padding:0px;margin:0px;cursor:pointer;min-height: 650px;/* max-height: 800px; */}
 .box.sidemenu .block{padding-top:0px;margin-top:0px;}
 
 /* paragraphs, quotes and lists
