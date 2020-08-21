@@ -2,17 +2,6 @@
     include '../Library/session.php';
     Session::init();
 ?>
-<?php
-    require '../Library/database.php';
-    include '../Library/function.php';
-    spl_autoload_register(function($class){
-        include_once "../Model/".$class.".php";
-    });
-    $db = new Database();
-    $func = new Functions();
-    $product = new Product();
-    $search = new Search();
-?>
 <!DOCTYPE html>
 <html lang="vi">
 <head>

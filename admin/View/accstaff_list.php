@@ -1,8 +1,4 @@
-<?php include '../../Model/product.php';  ?>
-<?php require_once '../../Library/function.php'; ?>
 <?php 
-	$pd = new Product();
-	$func = new Functions();
 	if(isset($_GET['productId']) && isset($_GET['type'])){
 		$id = $_GET['productId'];
 		$type = $_GET['type'];

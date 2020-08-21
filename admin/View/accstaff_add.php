@@ -1,8 +1,4 @@
-<?php include '../../Model/product.php';  ?>
-<?php require_once '../../Library/function.php'; ?>
 <?php 
-    $pd = new Product();
-    $func = new Functions();
     if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])){
         // LẤY DỮ LIỆU TỪ PHƯƠNG THỨC Ở FORM POST
         $insertProduct = $pd -> insert_product($_POST, $_FILES); // hàm check khi submit lên

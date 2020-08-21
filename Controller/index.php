@@ -1,5 +1,15 @@
 <?php
 	include_once "../View/Layout/header.php";
+	
+    require_once '../Library/database.php';
+    include '../Library/function.php';
+    spl_autoload_register(function($class){
+        include_once "../Model/".$class.".php";
+    });
+    $db = new Database();
+    $func = new Functions();
+    $product = new Product();
+    $search = new Search();
 
 	if(isset($_GET['act'])){
 		$act= $_GET['act'];
