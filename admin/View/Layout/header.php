@@ -48,7 +48,7 @@
         .dropdown {
           position: absolute;
           display: inline-block;
-          padding: 5px 5px;
+          padding: 6px 5px;
           right: 10px;
         }
 
@@ -68,7 +68,7 @@
           padding: 6px 10px;
           text-decoration: none;
           display: block;
-          background: #43505c;
+          background: rgb(4 4 4 / 62%);
         }
 
         .dropdown-content a:hover {background-color: #42667E;}
