@@ -37,47 +37,6 @@
         });
     </script>
 
-
-    <style>
-
-        .dropbtn {
-          color: white;
-          font-size: 15px;
-          border: none;
-        }
-
-        .dropdown {
-          position: absolute;
-          display: inline-block;
-          padding: 6px 5px;
-          right: 10px;
-        }
-
-        .dropdown-content {
-            margin-top: 3px;
-          display: none;
-          position: absolute;
-          background-color: #f1f1f1;
-          width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 2;
-          top: 32px;
-        }
-
-        .dropdown-content a {
-          color: white;
-          padding: 6px 10px;
-          text-decoration: none;
-          display: block;
-          background: rgb(4 4 4 / 62%);
-        }
-
-        .dropdown-content a:hover {background-color: #42667E;}
-
-        .dropdown:hover .dropdown-content {display: block;}
-
-
-    </style>
 </head>
 <body>
     <div class="row mx-0">
