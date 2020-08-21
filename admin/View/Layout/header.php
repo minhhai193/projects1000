@@ -41,15 +41,15 @@
     <style>
         .dropbtn {
           color: white;
-          font-size: 16px;
+          font-size: 15px;
           border: none;
         }
 
         .dropdown {
           position: absolute;
           display: inline-block;
-          padding: 5px 0;
-          right: 40px;
+          padding: 5px 5px;
+          right: 10px;
         }
 
         .dropdown-content {
@@ -61,7 +61,6 @@
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           z-index: 2;
           top: 32px;
-          right: 0;
         }
 
         .dropdown-content a {
@@ -72,7 +71,7 @@
           background: #43505c;
         }
 
-        .dropdown-content a:hover {background-color: #ddd;}
+        .dropdown-content a:hover {background-color: #42667E;}
 
         .dropdown:hover .dropdown-content {display: block;}
 
@@ -87,7 +86,7 @@
                         <img src="../images/Logo_Shop.png" alt="Logo" />
                     </div>
                     <div class="details pl-1 py-1">
-                        <h3>GearAway</h3>
+                        <h3>Gear<a style="color: red">away</a></h3>
                         <p>TECHNOLOGIES GAMING</p> 
                     </div>
                 </div>
@@ -158,7 +157,7 @@
                 </ul> -->
 
                 <div class="dropdown">
-                    <p class="dropbtn" style="font-weight: bold;margin: 0; margin-bottom: 1px"><?php echo Session::get('adminName')?></p>
+                    <p class="dropbtn" style="font-weight: bold;margin: 0; margin-bottom: 1px">Hi, <?php echo Session::get('adminName')?></p>
                     <div class="dropdown-content">
                         <a href="changepassword.php"><i class="fas fa-unlock-alt mr-2"></i>Đổi mật khẩu</a>
                         <a href="?action=logout"><i class="fas fa-sign-out-alt mr-2"></i>Đăng xuất</a>

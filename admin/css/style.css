@@ -33,6 +33,7 @@ label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color:
 }
 
 
+
 .menu_left ul.section ul li{text-transform:none;}
 .menu_left ul.section ul.current li a{background: #252E35;border-bottom:1px solid #1f1e1e;font-size: 13px;font-weight:normal;color: #9da1a5;}
 .menu_left ul.section ul.current li a:before{content: url('../images/icon/arrow.gif'); margin-right: 1em;}
@@ -57,11 +58,11 @@ label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color:
 .menu_right .boxInsert form tr td{padding: 9px 0 5px;border-bottom:1px solid #E2E2E2;}
 .menu_right .boxInsert form tr #td_end{border-bottom:0}
 
-.items{display: flex;padding: 1.5em 5% 0;}
+.items{display: flex;padding: 1em 5% 0;}
 .items .img{flex:1 30%;}
 .items .details{flex: 1 40%;}
 .floatleft{float:left;}
-.logo .items .details h3{font-size: 18px;text-transform: uppercase;font-weight: bold;margin-bottom: 0;color: #c1c1c1;}
+.logo .items .details h3{font-size: 18px;/* text-transform: uppercase; */font-weight: bold;margin-bottom: 0;color: #c1c1c1;}
 .logo .items .details p{font-size: 0.65em;text-transform: capitalize;font-weight: bold;color: #9e9696;margin-bottom: 1em;}
 
 .logo img
