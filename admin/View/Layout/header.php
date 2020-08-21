@@ -39,41 +39,7 @@
 
 
     <style>
-        .dropbtn {
-          color: white;
-          font-size: 15px;
-          border: none;
-        }
-
-        .dropdown {
-          position: absolute;
-          display: inline-block;
-          padding: 5px 5px;
-          right: 10px;
-        }
-
-        .dropdown-content {
-            margin-top: 3px;
-          display: none;
-          position: absolute;
-          background-color: #f1f1f1;
-          width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 2;
-          top: 32px;
-        }
-
-        .dropdown-content a {
-          color: white;
-          padding: 6px 10px;
-          text-decoration: none;
-          display: block;
-          background: #43505c;
-        }
-
-        .dropdown-content a:hover {background-color: #42667E;}
-
-        .dropdown:hover .dropdown-content {display: block;}
+        
 
     </style>
 </head>
@@ -156,9 +122,9 @@
                     </li>
                 </ul> -->
 
-                <div class="dropdown">
+                <div class="dropdown1">
                     <p class="dropbtn" style="font-weight: bold;margin: 0; margin-bottom: 1px">Hi, <?php echo Session::get('adminName')?></p>
-                    <div class="dropdown-content">
+                    <div class="dropdown1-content">
                         <a href="changepassword.php"><i class="fas fa-unlock-alt mr-2"></i>Đổi mật khẩu</a>
                         <a href="?action=logout"><i class="fas fa-sign-out-alt mr-2"></i>Đăng xuất</a>
                     </div>
