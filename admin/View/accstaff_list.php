@@ -15,8 +15,8 @@ if(!isset($_GET['delid']) || $_GET['delid'] == NULL){
         $delProduct = $pd -> del_product($id); // hàm check delete Name khi submit lên
     }
 ?>
-<div class="title-style"><h4><i class="fas fa-home mr-3"></i>Danh sách tài kho?n nhân viên</h4></div>
-<div class="btn_add"><a href="index.php?act=accstaff_add">THÊM M?I</a></div>
+<div class="title-style"><h4><i class="fas fa-home mr-3"></i>Danh sách tài khoản nhân viên</h4></div>
+<div class="btn_add"><a href="index.php?act=accstaff_add">THÊM MỚI</a></div>
 <div class="boxInsert">
 	<?php 
 	if(isset($delCat)){
@@ -26,15 +26,15 @@ if(!isset($_GET['delid']) || $_GET['delid'] == NULL){
 	<table class="data display datatable" id="example">
 		<thead>
 			<tr class="boxTitle_pd">
-				<th id="thutu">Th? t?</th>
+				<th id="thutu">Thứ t?</th>
 				<th>Username</th>
 				<th>Password</th>
-				<th>H? và tên</th>
-				<th id="thutu">V? trí</th>
-				<th>S? di?n tho?i</th>
+				<th>Họ và tên</th>
+				<th id="thutu">Vị trí</th>
+				<th>Số điện thoại</th>
 				<th>CMND</th>
-				<th>Ð?a ch?</th>
-				<th id="xuly">X? lý</th>
+				<th>Ðịa chỉ</th>
+				<th id="xuly">Xử lý</th>
 			</tr>
 		</thead>
 		<tbody  class="boxPro">
