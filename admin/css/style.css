@@ -17,7 +17,7 @@ label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color:
 .menu_left ul.section li .ic_Company:before{content: url('../images/icon/icon_ThuongHieu.png');margin: 0.5em 1em 0 0;}
 .menu_left ul.section li .ic_Product:before{content: url('../images/icon/icon_SanPham.png');margin: 0.5em 1em 0 0;}
 .menu_left ul.section li .ic_Bill:before{content: url('../images/icon/icon_Bill.png');margin: 0.5em 1em 0 0;}
-.menu_left ul.section li a{background: url(../images/background/navItemBg.png) no-repeat;background-position: top;background-size:cover;line-height: 1.5em;color:white;padding: 1em 2em;font-size: 1em;font-weight: 700;text-transform: none;}
+.menu_left ul.section li a{background: url(../images/background/navItemBg.png) no-repeat;background-position: top;background-size:cover;line-height: 1.5em;color:white;padding: 1em 1.7em;font-size: 1em;font-weight: 700;text-transform: none;}
 .menu_left ul.section li a:hover{background:url(../images/background/navItemBg.png) no-repeat;background-position: center;background-size:cover;text-decoration: none;}
 .menu_left ul.section li li a{background:#252E35;border-bottom:1px solid #1f1e1e;}
 .menu_left ul.section li li a:hover{background:#ccc;}

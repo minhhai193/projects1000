@@ -9,6 +9,7 @@
     $db = new Database();
     $func = new Functions();
     $pd = new Product();
+    $acc = new Account();
 
 	if(isset($_GET['act'])){
 		$act= $_GET['act'];
