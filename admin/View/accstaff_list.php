@@ -26,7 +26,7 @@ if(!isset($_GET['delid']) || $_GET['delid'] == NULL){
 	<table class="data display datatable" id="example">
 		<thead>
 			<tr class="boxTitle_pd">
-				<th id="thutu">Thứ t?</th>
+				<th id="thutu">Thứ tự</th>
 				<th>Username</th>
 				<th>Password</th>
 				<th>Họ và tên</th>
