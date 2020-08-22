@@ -16,8 +16,6 @@ if(!isset($_GET['delid']) || $_GET['delid'] == NULL){
     }
 ?>
 <div class="title-style"><h4><i class="fas fa-home mr-3"></i>Danh sách tài khoản nhân viên</h4></div>
-?>
-
 <div class="btn_add"><a href="index.php?act=accstaff_add">THÊM MỚI</a></div>
 <div class="boxInsert">
 	<?php 
@@ -41,53 +39,6 @@ if(!isset($_GET['delid']) || $_GET['delid'] == NULL){
 		</thead>
 		<tbody  class="boxPro">
 			<?php 
-			$pdlist = $pd->show_user_staff();
-			$i = 0;
-			if($pdlist){
-				while ($result = $pdlist->fetch_assoc()){
-					$i++;	
-					?>
-					<tr>
-						<td id="thutu"><?= $i; ?></td>
-						<td id="username"><?= $result['Username_Staff'] ?></td>
-						<td id="passowrd"><?= $result['Password_Staff'] ?></td>
-						<td id="fullname"><?= $result['FullName'] ?></td>
-						<td id="CMND"><?= $result['CMND'] ?></td>
-						<td id="address"><?= $result['Address'] ?></td>
-						<td id="quyen"><?= $result['Address'] ?></td>
-						<!-- <td><?= $fm->format_currency($result['giasi']) ?></td>
-						<td><?= $fm->format_currency($result['giale']) ?></td> -->
-						<!-- <td>
-							<?php
-							if($result['type']==1){
-								?>
-								<a href="?productId=<?php echo $result['productId'] ?>&type=0" id="btn_on">ON</a> 
-								<?php
-							}else{
-								?>	
-								<a href="?productId=<?php echo $result['productId'] ?>&type=1" id="btn_off">OFF</a> 
-								<?php
-							}
-							?>
-						</td> -->
-						<!-- <td>
-							<?php
-							if($result['hienthi']==1){
-								?>
-								<a href="?productId=<?php echo $result['productId'] ?>&hienthi=0" id="btn_on">ON</a> 
-								<?php
-							}else{
-								?>	
-								<a href="?productId=<?php echo $result['productId'] ?>&hienthi=1" id="btn_off">OFF</a> 
-								<?php
-							}
-							?>
-						</td> -->
-						<td id="xuly"><a href="productedit.php?productid=<?php echo $result['Id_User_Staff']; ?>" title="Sửa"><img src="../images/icon/pencil.png" alt="Sửa"></a> <a href="?delid=<?php echo $result['Id_User_Staff'] ?>" title="Xoá"><img src="../images/icon/close.png" alt="Xoá"></a></td>
-						</tr>
-						<?php 
-					}
-				}
 			$accstaff = $acc->show_accstaff();
 			$i = 0;
 			foreach($accstaff as $result){
