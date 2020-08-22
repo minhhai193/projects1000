@@ -115,6 +115,15 @@ class Product
 			$result = $this->db->link->query($query);
 			return $result;
 		}
+
+		//Hiếu làm
+		public function show_user_staff()
+		{
+			$query = "SELECT * FROM users_staff order by Create_Date desc ";
+			$result = $this->db->link->query($query);
+			return $result;
+		}
+
 		public function update_type_slider($id,$type){
 			$type = mysqli_real_escape_string($this->db->link, $type);
 			$query = "UPDATE tbl_slider SET type = '$type' where sliderId='$id'";
