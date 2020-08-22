@@ -16,8 +16,8 @@ if(!isset($_GET['delid']) || $_GET['delid'] == NULL){
     }
 ?>
 <div class="title-style"><h4><i class="fas fa-home mr-3"></i>Danh sách tài khoản nhân viên</h4></div>
-    ?>
-<div class="title-style"><h4><i class="fas fa-home mr-3"></i>Danh mục sản phẩm</h4></div>
+?>
+
 <div class="btn_add"><a href="index.php?act=accstaff_add">THÊM MỚI</a></div>
 <div class="boxInsert">
 	<?php 
@@ -29,13 +29,6 @@ if(!isset($_GET['delid']) || $_GET['delid'] == NULL){
 		<thead>
 			<tr class="boxTitle_pd">
 				<th id="thutu">Thứ tự</th>
-				<th id="username">Username</th>
-				<th id="passowrd">Password</th>				
-				<th id="fullname">Họ tên</th>
-				<th id="CMND">CMND</th>
-				<th id="address">Địa chỉ</th>
-				<th id="quyen">Quyền</th>
-				<!-- <th id="noibat">Hiển thị</th> -->
 				<th>Username</th>
 				<th>Password</th>
 				<th>Họ và tên</th>
