@@ -27,7 +27,7 @@
 				$query = "SELECT * FROM users_staff WHERE Username_Staff = '$adminUser' AND Password_Staff = '$adminPass' AND Is_Delete = '0' ";
 				$result = $this->db->link->query($query);
 				
-				if($result != false){
+				if(mysqli_num_rows($result)){
 					$value = $result->fetch_assoc();
 					Session::set('adminlogin', true); // set adminlogin đã tồn tại
 					// gọi function Checklogin để kiểm tra true.
