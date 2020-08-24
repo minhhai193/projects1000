@@ -53,7 +53,7 @@ if(!isset($_GET['delid']) || $_GET['delid'] == NULL){
 					<td id="tensp"><?= $result['Phone'] ?></td>
 					<td id="tensp"><?= $result['CMND'] ?></td>
 					<td id="tensp"><?= $result['Address'] ?></td>
-					<td id="xuly"><a href="productedit.php?productid=<?php echo $result['productId']; ?>" title="S?a"><img src="../images/icon/pencil.png" alt="S?a"></a> <a href="?delid=<?php echo $result['productId'] ?>" title="Xoá"><img src="../images/icon/close.png" alt="Xoá"></a></td>
+					<td id="xuly"><a href="index.php?act=accstaff_edit&id=<?php echo $result['Id_User_Staff']; ?>" title="S?a"><img src="../images/icon/pencil.png" alt="S?a"></a> <a href="?delid=<?php echo $result['productId'] ?>" title="Xoá"><img src="../images/icon/close.png" alt="Xoá"></a></td>
 				</tr>
 				<?php 
 			}

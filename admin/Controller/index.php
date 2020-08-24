@@ -21,6 +21,9 @@
 			case 'accstaff_add';
 				include_once "../View/accstaff_add.php";
 				break;
+			case 'accstaff_edit';
+				include_once "../View/accstaff_edit.php";
+				break;
 			case 'productlist';
 				include_once "../View/productlist.php";
 				break;

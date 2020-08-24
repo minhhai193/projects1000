@@ -102,6 +102,37 @@ class Account
 			$result = $this->db->link->query($query);
 			return $result;
 		}
+		public function getaccstaffbyId($id)
+		{
+			$query = "SELECT * FROM users_staff where Id_User_Staff = '$id' ";
+			$result = $this->db->link->query($query);
+			return $result;
+		}
+		public function update_accstaff($data,$id)
+		{
+			$usernameStaff = mysqli_real_escape_string($this->db->link, $data['Username_Staff']);
+			$passwordStaff = mysqli_real_escape_string($this->db->link, $data['Password_Staff']);
+			$fullName = mysqli_real_escape_string($this->db->link, $data['FullName']);
+			$phone = mysqli_real_escape_string($this->db->link, $data['Phone']);
+			$cmnd = mysqli_real_escape_string($this->db->link, $data['CMND']);
+			$diachi = mysqli_real_escape_string($this->db->link, $data['Address']);
+
+			$id = mysqli_real_escape_string($this->db->link, $id);
+			if($usernameStaff =="" || $passwordStaff == "" || $fullName == "" || $phone == "" || $cmnd == "" || $diachi == ""){
+				$alert = "<span class='error'>Vui lòng điền đầy đủ thông tin.</span>";
+				return $alert;
+			}else{
+				$query = "UPDATE users_staff SET Username_Staff= '$usernameStaff', Password_Staff= '$passwordStaff', FullName= '$fullName', Phone= '$phone', CMND= '$cmnd', Address= '$diachi'   WHERE Id_User_Staff = '$id' ";
+				$result = $this->db->link->query($query);
+				if($result){
+					$alert = "<span class='success'>Cập nhật thành công.</span>";
+					return $alert;
+				}else {
+					$alert = "<span class='error'>Lỗi cập nhật!</span>";
+					return $alert;
+				}
+			}
+		}	
 		public function show_product_index()
 		{
 			$query = 
