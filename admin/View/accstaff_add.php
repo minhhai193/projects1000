@@ -16,13 +16,19 @@
             <tr>
                 <td style="width: 150px;"><label>Username:</label></td>
                 <td >
-                    <input name="productName" type="text" class="medium" />
+                    <input name="Username_Staff" type="text" class="medium" />
                 </td>
             </tr>
             <tr>
-                <td><label>Giá sỉ</label></td>
+                <td><label>Password</label></td>
                 <td >
-                    <input name="giasi" type="text" class="medium" />
+                    <input name="Password_Staff" type="text" class="medium" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Họ tên</label></td>
+                <td >
+                    <input name="FullName" type="text" class="medium" />
                 </td>
             </tr>
             <tr>
