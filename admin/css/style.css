@@ -8,6 +8,7 @@ label{padding: 4px 0;font-weight: 600;white-space: nowrap;font-size: 13px;color:
 .btn_add {margin: 1em 4.65em 1.15em;}
 .btn_add a{color: white;background: #4a8cbf;padding: .5em 2em;font-size: .8em;font-weight: bold;border: 1px solid #42769e;}
 .btn_add a:hover{color: white;background: #4781ad;text-decoration: none;}
+#logo2{width: 100%;}
 /* section menus
 ----------------------------------------------- */
 .menu_left{background-color: #43505c;padding-right: 0!important;border-right: 1px solid #39454f;}

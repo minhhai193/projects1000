@@ -14,7 +14,7 @@
     <form action="productadd.php" method="post" enctype="multipart/form-data">
         <table class="form">                    
             <tr>
-                <td style="width: 150px;"><label>Tên sản phẩm:</label></td>
+                <td style="width: 150px;"><label>Username:</label></td>
                 <td >
                     <input name="productName" type="text" class="medium" />
                 </td>

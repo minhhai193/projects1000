@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <img src="../images/sidebarSep.png" alt="">
+            <img src="../images/sidebarSep.png" alt="" id="logo2">
             <div class="box sidemenu mt-2">
                 <div class="block" id="section-menu">
                     <ul class="section menu">
