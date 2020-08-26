@@ -1,0 +1,80 @@
+/*Hover border bottom effect*/
+li.nav-item::after {
+    display: block;
+    content: '';
+    border-bottom: 3px solid #FF0000;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+li.nav-item:hover:not(.active):after {
+    transform: scaleX(1);
+}
+/*Hover border bottom effect*/
+
+/*Hover change color icon effect*/
+.icon-hover:hover { 
+    color: #FF0000 !important;
+}
+/*Hover change color icon effect*/
+
+/*Hover overlay effect*/
+.overlay {
+    position: absolute;
+    bottom: 0;
+    /*background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #F1F1F1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.item-view:hover .overlay {
+    opacity: 1;
+}
+/*Hover overlay effect*/
+
+/*Hover shadow effect*/
+.item-view {
+    transition: box-shadow .3s;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.item-view:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+/*Hover shadow effect*/
+
+/*Hover scale effect*/
+.brand-view {
+    transition: all .4s ease-in-out; 
+}
+.brand-view:hover { 
+    transform: scale(1.05); 
+}
+/*Hover scale effect*/
+
+/*Hover change color button*/
+form.btn-mail button:hover {
+    background: #C60000;
+}
+
+form.btn-search button:hover {
+    background: #C60000;
+}
+/*Hover change color button*/
+
+/*Hover change color text*/
+.page-footer li:hover a.sub-link {
+    color: red;
+}
+/*Hover change color text*/
+
+/*Slide indicators active*/
+li.indicators.active {
+    background-color: #FFF !important;
+}

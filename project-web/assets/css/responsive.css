@@ -1,0 +1,20 @@
+@media only screen and (max-device-width: 414px) {
+    .pagination-container {
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (max-device-width: 375px) {
+    .pagination-container {
+        margin-top: -10%;
+    }
+}
+
+@media only screen and (max-device-width: 360px) {
+    div#pagination-box {
+        padding: 0rem;
+    }
+    .pagination-container {
+        margin-top: -6%;
+    }
+}

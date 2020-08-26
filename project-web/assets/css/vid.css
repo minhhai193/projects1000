@@ -1,0 +1,8 @@
+.vid {
+    width: 100%;
+    max-height: 482px;
+    height: 482px;
+    object-fit: fill;
+    border-radius: 2px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}

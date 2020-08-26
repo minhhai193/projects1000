@@ -1,0 +1,36 @@
+body {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    cursor: pointer;
+}
+
+.sub-link {
+    color: #FFF;
+    font-weight: 300;
+}
+
+.header li.nav-item > a {
+    color: #FFF !important;
+}
+
+.sticky-header li.nav-item > a {
+    color: black !important;
+}
+
+.sticky-header a.icon-hover {
+    color: black;
+}

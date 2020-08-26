@@ -1,0 +1,27 @@
+#__logo {
+    width: 159px;
+    height: 91px;
+    vertical-align: middle;
+}
+
+.events-card_item img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0%;
+}
+
+.brand-view > img {
+    width: 100%;
+}
+
+.centered > img {
+    background: transparent !important;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    width: 100%;
+    height: 768px;
+}
