@@ -9,10 +9,7 @@
 
     <!-- Boostrapt 4 CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    
     <!-- File CSS -->
     <link rel="stylesheet" href="../../assets/css/img.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
@@ -60,6 +57,9 @@
     </style>
 
     <style>
+      option:hover{
+        background-color: orange ;
+      }
       /* The container */
       .filter-item {
         display: block;
@@ -393,7 +393,26 @@
                 Custom Select Box
               </div>
               <div class="select_wrap">
-                  <ul class="default_option">
+                
+                <select name="" id="pagination_features" class="mdb-select md-form colorful-select dropdown-dark">
+                  <i class="fas fa-angle-down"></i>
+                  <option disabled value="">
+                    show:
+                  </option>
+                  <option value="">
+                    Burget
+                  </option>
+                  <option value="">
+                    Ice Cream
+                  </option>
+                  <option value="">
+                    Potatoes
+                  </option>
+                </select>
+                <svg width="1.5em" height="100%" viewBox="0 0 16 16" style="position: absolute; right:10px" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                </svg>
+                  <!-- <ul class="default_option">
                       <li>
                           <div class="option pizza">
                             <p>Pizzas</p>
@@ -421,7 +440,7 @@
                             <p>Fried Potatoes</p>
                           </div>
                       </li>
-                  </ul>
+                  </ul> -->
               </div>
             </div>	
 
@@ -738,6 +757,16 @@
             </div>
         </div>
     </footer>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function() {
+        $('.mdb-select').materialSelect();
+      });
+    </script>
 </body>
 
 </html>
